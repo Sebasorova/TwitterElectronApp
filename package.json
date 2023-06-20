@@ -1,5 +1,15 @@
 {
   "name": "TwitterElectronApp",
   "version": "0.0.1",
-  "author": "Sebasorova"
+  "author": "Sebasorova",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "license": "ISC",
+  "dependencies": {
+    "discord-rich-presence": "^0.0.8",
+    "electron": "^24.3.1",
+  }
 }
