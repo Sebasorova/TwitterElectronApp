@@ -1,6 +1,6 @@
 {
   "name": "TwitterElectronApp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Sebasorova",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,10 @@
   },
   "license": "ISC",
   "dependencies": {
-	"discord-rich-presence": "^0.0.8",
-	"electron": "^24.3.1"
+	"discord-rich-presence": "^0.0.8"
   },
   "devDependencies": {
+	  "electron": "^24.3.1",
 	  "electron-builder": "^24.4.0"
   }
 }
