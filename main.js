@@ -16,7 +16,7 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 1024,
     height: 512,
-    icon: __dirname + '/favicon.png',
+    icon: __dirname + '/TwitterLogo.png',
     autoHideMenuBar: true,
   })
   win.loadURL('https://twitter.com');
