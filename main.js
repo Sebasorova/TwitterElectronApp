@@ -1,5 +1,5 @@
 //Import Dependencies
-const {App, BrowserWindow} = require('Electron');
+const {app, BrowserWindow} = require('Electron');
 const client = require('discord-rich-presence')('1120853911109120024');
 
 //Discord Rich Presence
