@@ -19,18 +19,17 @@ const createWindow = () => {
     icon: __dirname + '/TwitterLogo.png',
     autoHideMenuBar: true,
   })
-  //Load the Twitter Website
   win.loadURL('https://twitter.com');
 }
-//When the App is ready then Create the Window
+
 app.whenReady().then(() => {
   createWindow();
 });
-//If all the windows of the App are closed then the App quits
+
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') app.quit()
 })
-//Debug
+
 app.on('ready', () => {
   console.log('ready');
 })
