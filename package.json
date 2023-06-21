@@ -1,10 +1,9 @@
 {
   "name": "TwitterElectronApp",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "author": "Sebasorova",
   "main": "main.js",
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
 	"start": "electron .",
 	"postinstall": "electron-builder install-app-deps",
 	"build": "electron-builder --windows",
