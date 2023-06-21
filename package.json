@@ -1,6 +1,6 @@
 {
   "name": "TwitterElectronApp",
-  "version": "0.2",
+  "version": "0.2.1",
   "author": "Sebasorova",
   "main": "main.js",
   "scripts": {
