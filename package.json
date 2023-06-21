@@ -1,8 +1,12 @@
 {
   "name": "TwitterElectronApp",
-  "version": "0.4.2",
+  "description": "Twitter",
+  "version": "1.0.0",
   "author": "Sebasorova",
   "main": "main.js",
+  "build": {
+	"icon": "TwitterLogo.png"
+  },
   "scripts": {
 	"start": "electron .",
 	"postinstall": "electron-builder install-app-deps",
@@ -19,3 +23,4 @@
 	  "dmg-builder": "^24.5.0"
   }
 }
+
